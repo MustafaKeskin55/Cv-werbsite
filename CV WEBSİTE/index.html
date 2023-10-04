@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustafa Keskin</title>
+  <link rel="icon" href="./assets/imges/m.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+  <div id="home">
+
+    <div class="background-image" style="background-image: url(./assets/imges/background2.avif);">
+      <div class="loader">
+        <h1>Mustafa Keskin</h1>
+        <div class="loader-text" id="loader-text"></div>
+      </div>
+      <div id="particles-js">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="./assets/js/particles.min.js"></script>
+      </div>
+      <div class="menu">
+        <nav class="side-menu" id="side-menu">
+          <ul>
+            <li><a href="#home">Ana Sayfa<span><i class="fas fa-home"></i></span></a></li>
+            <li><a href="#text">Hakkımda<span><i class="fa-solid fa-address-card"></i> </span></a></li>
+            <li><a href="#" onclick="downloadPDF()">Cv İndir<span><i class="fas fa-file-alt"></i></span></a>
+            </li>
+            <li><a href="#communication">İletişim<span><i class="fas fa-rss-square"></i></span></a></li>
+            <li><a href="#">Bloğum<span><i class="fa-brands fa-blogger"></i></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <section class="about-section fix" id=about>
+    <div class="container pt100 pb500">
+      <div class=row>
+        <div class="section-title">
+          <h2>Hakkımda</h2>
+        </div>
+        <div class="about-container">
+          <div class="photo">
+            <img src="./assets/imges/profil.jpg" alt="A sample photo">
+          </div>
+          <div class="text" id="text">
+              <br>
+              <h3 style="font-family: 'Indie Flower', cursive;">Yeni nesil bilgisayar
+                programcısı.</h3><br>
+              <p>22 Mayıs 2002'de Samsunun'nın Çarşamba ilçesinde doğdum. İlköğretim dönemimi burada tamamlamamın ardından
+                Bulutoğlu Anadolu  Lisesini kazanarak lise hayatıma başladım.<br>Lisede bulunduğum sayısal
+                bölümünde derslerin yanısıra başlangıç seviyesi oyun tasarımı ardından fotoğraf ve video edit
+                uygulamalarına ilgim olduğu için onlar ile ilgili çalışmalar  yaptım.<br>Lise dönemi ardından Ordu Teknik Bilimler Meslek Yüksekokulu Üniversitesi Bilgisayar
+                Programcılığı bölümüne girmeye hak kazandım ve 2023 ağustos ayı itibariyle üniversite eğitimimi
+                tamamladım.<br>Özel olarak web ve veritabanı,programlama,robotik ve siber güvenlik ile ilgileniyorum.<br><b>İlgili konular üzerine
+                  freelancer olarak hizmet veriyorum.</b></p>
+              <button type=button class="btn site-btn btn-outline transition-ease mt10" data-wow-delay=0.1s><a
+                  href="#home" class="btn site-btn transition-ease smooth-scroll mt10" data-wow-delay=0.20s ;>CV'Mİ GÖRÜNTÜLE</a></button>
+              <a href="#communication" class="btn site-btn transition-ease smooth-scroll mt10" data-wow-delay=0.20s>İLETİŞİME
+                GEÇELİM</a>
+            </div>
+          </div>
+        </div></div></section>
+  <div id="container" style="margin-bottom:11vh">
+    <div class="row mx-auto" style="width: 90% ">
+      <div class="col-sm-4">
+        <h5 class="mb-md-4">Yazılım</h5>
+        <div class="single-progress-item">
+          <p class="mb-1">HTML/CSS</p>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+        </div>
+        <div class="single-progress-item">
+          <p class="mb-1">JavaScript</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
+              aria-valuemin="0" aria-valuemax="100">35%</div>
+          </div>
+        </div>
+        <div class="single-progress-item">
+          <p class="mb-1">PHP</p>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+              aria-valuemax="100">40%</div>
+          </div>
+        </div>
+        <div class="single-progress-item">
+          <p class="mb-1">MYSQL/MSSQL</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="40"
+              aria-valuemin="0" aria-valuemax="100">40%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="mb-md-4">Grafik</h5>
+        <div class="single-progress-item">
+          <p class="mb-1">PHOTOSHOP </p>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">%50</div>
+          </div>
+        </div>
+        <div class="single-progress-item">
+          <p class="mb-1">PREMİERE</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
+              aria-valuemin="0" aria-valuemax="100">35%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="mb-md-4">Tasarımı</h5>
+        <div class="single-progress-item">
+          <p class="mb-1">BLENDER 3D</p>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">%50</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="contact-section fix" id=contact>
+    <div class="container pt100 pb70">
+    <div class="section-title mb70">
+    <h2>Bana Ulaşın!</h2><br>
+    <p style="text-align: center">Projen için ücret teklifi almak, aklına takılan bir soruyu sormak ya da "Merhaba!" demek için<br>mail adreslerimden bana ulaş, sosyal medya adreslerimden bana yazın <br><b>Sana en yakın sürede döneceğim :)</b> </p>
+    </div>
+    </div></section>
+  <div class="communication" id="communication">
+    <div class="col-md-4 col-md-offset-3">
+      <div class="communication">
+        <div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.2s">
+          <i class="fa-solid fa-phone-volume" style="color: #6a92d7; text-align:center;"></i><br>
+          <a style="cursor: pointer;" href="tel://+905367878092">+90536***80**</a>
+        </div>
+        <div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.4s" style="margin: 0 30vh;">
+          <i class="fa fa-map-marker"style="color: #6a92d7; text-align:center;"></i>
+          <a id="harita-link" href="https://www.google.com/maps/place/Samsun+Çarşamba"><p>Samsun,Çarşamba, 55500</p></a>
+        </div>
+        <div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.6s">
+          <i class="fa fa-envelope"style="color: #6a92d7; text-align:center;"></i><br>
+          <a href="mailto:mustafakeskin2290@gmail.com">mustafakeskin2290@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!---<script>
+    function openMap() {
+      window.location.href = "https://www.google.com/maps/place/Samsun+Çarşamba";
+    }
+    
+    document.getElementById("harita-link").onclick = function() {
+      openMap();
+    };
+  </script>--->
+
+      <footer class="footer">
+        <div class="social">
+          <p>Beni sosyal medyada takip et</p>
+          <ul class="wrapper">
+            <a href="https://www.linkedin.com/in/mustafa-keskin-undefined-55b321251" target="_blank">
+              <li class="icon linkedin">
+                <span class="tooltip">LinkedIn</span>
+                <span><i class="fab fa-linkedin"></i></span>
+              </li>
+            </a>
+            
+            <a href="https://github.com/MustafaKskn" target="_blank">
+              <li class="icon github">
+                <span class="tooltip">GitHub</span>
+                <span><i class="fab fa-github"></i></span>
+              </li>
+            </a>
+            <a href="https://www.facebook.com/mustafa.keskin.2205" target="_blank">
+              <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+            </a>
+            <a href="https://www.instagram.com/mustafax.x/" target="_blank">
+              <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+            </a>
+            <a href="https://www.youtube.com/channel/kanal-adi" target="_blank" rel="noopener noreferrer">
+              <li class="icon youtube">
+                <span class="tooltip" >Youtube</span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+              </li>
+            </a>
+            
+            <a href="https://codepen.io/Mustafa-kes" target="_blank">
+              <li class="icon github">
+                <span class="tooltip">CodePen</span>
+                <span><i class="fab fa-codepen"></i></span>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="final_text"></div>
+        <p>Copyright &copy; 2023 Sitenin Tüm Hakkları Saklıdır | Mustafa Keskin
+        </p>
+      </footer>
+      <script src="https://kit.fontawesome.com/f3e26a62cc.js" crossorigin="anonymous"></script>
+      <script src="./assets/js/menu.js"></script>
+      <script src="./assets/js/yazıani.js"></script>    
+</body>
+
+</html>
